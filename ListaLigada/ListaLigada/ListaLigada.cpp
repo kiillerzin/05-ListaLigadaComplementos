@@ -1,3 +1,4 @@
+// LISTA LIGADA ORDENADA
 #include <iostream>
 using namespace std;
 
@@ -19,6 +20,7 @@ void excluirElemento();
 void buscarElemento();
 NO* posicaoElemento(int numero);
 //--------------------------
+
 
 int main()
 {
@@ -69,7 +71,7 @@ void menu()
 
 void inicializar()
 {
-	// se a lista j· possuir elementos
+	// se a lista j√° possuir elementos
 // libera a memoria ocupada
 	NO* aux = primeiro;
 	while (aux != NULL) {
@@ -148,5 +150,3 @@ void buscarElemento()
 {
 
 }
-
-
